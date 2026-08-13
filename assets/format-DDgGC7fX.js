@@ -1,0 +1,1 @@
+function e(e,t,n){try{return new Intl.NumberFormat(n===`system`?void 0:n,{style:`currency`,currency:t}).format(e)}catch{return`${e.toFixed(2)} ${t}`}}function t(e){return new Date(`${e}T00:00:00`).toLocaleDateString(void 0,{month:`short`,day:`numeric`})}export{t as n,e as t};
